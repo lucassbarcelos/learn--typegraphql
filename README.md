@@ -1,6 +1,4 @@
-# TypeGraphQL & TypeORM Example
-
-How To Build a GraphQL API with TypeGraphQL and TypeORM. Read the [article](https://blog.logrocket.com/how-build-graphql-api-typegraphql-typeorm/).
+# TypeGraphQL & TypeORM Example Apllyed for Cuidas
 
 **How to use:**
 
