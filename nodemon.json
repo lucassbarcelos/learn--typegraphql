@@ -1,0 +1,26 @@
+{
+  "verbose": true,
+  "events": {
+    "restart": "kill-port 4000",
+    "crash": "kill-port 4000"
+  },
+  "watch": [
+    "src/",
+    "server/",
+    "constants/",
+    "jobs/"
+  ],
+  "ext": "ts,js",
+  "ignore": [
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "src/**/test.ts",
+    "public/*",
+    "portal/*",
+    "dist/*",
+    "**/**.test.ts"
+  ],
+  "exec": "npm run debug",
+  "delay": 500,
+  "legacyWatch": true
+}

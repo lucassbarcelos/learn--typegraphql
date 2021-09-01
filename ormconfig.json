@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "url": "mongodb://root:pass@127.0.0.1:27017/test-orm?authSource=admin&readPreference=primary&appname=mongodb-vscode%200.6.10&directConnection=true&ssl=false",
+  "database": "test-orm",
+  "synchronize": false,
+  "logging": true,
+  "entities": [
+    "./src/entities/*.ts"
+  ]
+}
